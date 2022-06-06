@@ -1,0 +1,13 @@
+owners:
+  default: null
+name: My plan
+author: Jit
+items:
+  - name: Require Branch Protection for SCM
+    uses: >-
+      jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
+level: beginner
+version: 0.1
+references:
+  - https://www.jit.io
+tags: []
