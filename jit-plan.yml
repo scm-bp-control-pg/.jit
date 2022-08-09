@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: adcabae0-999f-4e54-bf30-c245f493ce53
 author: Jit
 version: 0.1
 owners:
@@ -9,8 +10,6 @@ references:
 tags: []
 items:
   - name: Require Branch Protection for SCM
-    uses: >-
-      jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
+    uses: jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
   - name: Scan code for vulnerabilities
-    uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+    uses: jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
